@@ -20,6 +20,9 @@ div.select01 {
 	position: relative;
 	top: -4px;
 }
+.font-size.large {
+	margin-right: .6em;
+}
 
 
 /* Font Input */
@@ -87,4 +90,14 @@ div.slider {
 	font-size: 1.25em;
 	position: relative;
 	top: 3px;
+}
+
+
+/* Width Checkbox */
+.width-checkbox {
+	color: #686868;
+}
+.checkbox-text {
+	position: relative;
+	top: .1em;
 }
