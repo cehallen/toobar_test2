@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<div class="toolbar">
-			<div class="select01">
+			<div class="select01 tool">
 				<form action="?">
 					<select name="font-select" id="font-select">
 						<option>Font Names</option>
@@ -20,24 +20,27 @@
 				</form>
 			</div>
 
-			<div class="font-input">
+			<div class="font-input tool">
 				<form action="?">
 					<input type="text" placeholder="Enter your own text...">
 				</form>
 			</div>
 
 			<div class="font-size small">A</div>
-			<div class="slider">
+			<div class="slider tool">
 				<span class="tooltip"></span>
 				<div id="slider"></div>
 			</div>
 			<div class="font-size large">A</div>
 
-			<div class="width-checkbox">
+			<div class="width-checkbox tool">
 				<form action="?">
 					<label><input type="checkbox" name="checkbox"><span class="checkbox-text">&nbsp;fit to width</span></label>
-
 				</form>
+			</div>
+
+			<div class="color-swatch tool">
+				<img src="images/color-swatch.png" alt="color swatch">
 			</div>
 		</div>
 

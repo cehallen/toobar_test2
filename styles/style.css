@@ -13,6 +13,8 @@ div.toolbar div {
 	display: inline-block;
 }
 
+/* All Tool Styles */
+
 
 /* Font Select */
 div.select01 {
@@ -101,4 +103,12 @@ div.slider {
 	position: relative;
 	top: .1em;
 	font-size: .85em;
+}
+
+
+/* Color Swatch */
+.color-swatch {
+	position: relative;
+	top: .5em;
+	left: 1em;
 }
