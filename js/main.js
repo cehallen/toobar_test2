@@ -1,5 +1,10 @@
 $(function() {
+  // *********** Select01 ********* //
+  $('#basic').selectric();
 
+  // *********** End **********//
+
+  // *********** Slider *********** //
   //Store frequently elements in variables
   var slider  = $('#slider'),
     tooltip = $('.tooltip');
@@ -31,5 +36,6 @@ $(function() {
         tooltip.fadeOut('fast');
     },
   });
+  // ************ End ********** //
 
 });
