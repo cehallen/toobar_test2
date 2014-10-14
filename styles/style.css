@@ -24,7 +24,7 @@ div.toolbar div {
 div.select01 {
 	margin: 1em .6em 1em 1em;
 	position: relative;
-	top: -4px;
+	top: -.2em;
 }
 .font-size.large {
 	margin-right: .6em;
@@ -34,7 +34,7 @@ div.select01 {
 /* Font Input */
 .font-input {
 	position: relative;
-	top: .05em;
+	top: .2em;
 }
 .font-input input {
 	width: 12em;
