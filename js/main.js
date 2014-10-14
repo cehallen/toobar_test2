@@ -25,20 +25,6 @@ $(function() {
         volume = $('.volume');
 
       tooltip.css('left', value).text(ui.value);  //Adjust the tooltip accordingly
-
-      if(value <= 5) {
-        volume.css('background-position', '0 0');
-      }
-      else if (value <= 25) {
-        volume.css('background-position', '0 -25px');
-      }
-      else if (value <= 75) {
-        volume.css('background-position', '0 -50px');
-      }
-      else {
-        volume.css('background-position', '0 -75px');
-      };
-
     },
 
     stop: function(event,ui) {
