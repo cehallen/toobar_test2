@@ -97,7 +97,7 @@ div.slider {
 
 /* Width Checkbox */
 .width-checkbox {
-	color: #686868;
+	color: #6d6d6d;
 }
 .checkbox-text {
 	position: relative;
@@ -110,7 +110,7 @@ div.slider {
 .color-swatch {
 	position: relative;
 	top: .5em;
-	left: 1em;
+	left: 1.1em;
 }
 .color-swatch:hover {
 	cursor: pointer;
@@ -120,9 +120,17 @@ div.slider {
 .font-style {
 	position: relative;
 	top: .6em;
-	left: 1em;
+	left: 1.2em;
 	margin-left: 1em;
 }
 .font-style:hover {
 	cursor: pointer;
+}
+
+/* Gear Icon */
+.gear-icon {
+	position: relative;
+	top: .55em;
+	left: .5em;
+	margin-left: 1em;
 }
