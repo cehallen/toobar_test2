@@ -176,3 +176,22 @@ font-size: .85em; */
 	top: -.6em;
 	margin: 0 .5em;
 }
+
+/* Back to Top Up Arrow */
+.up-arrow {
+	float: right;
+	margin: 1em 1em;
+}
+.up-arrow img {
+	height: 1.7em;
+	width: auto;
+	position: relative;
+}
+.up-arrow a{
+	text-decoration: none;
+}
+.up-arrow-text{
+	margin-right: .5em;
+	position: relative;
+	top: -.6em;
+}
