@@ -3,7 +3,7 @@ body {
 }
 div.toolbar {
 	background-color: #fbfbfb;
-  height: 3.5em;
+  height: 3.6em;
   font-family: verdana, calibri, arial;
   border: 1px #e6e6e6 solid;
   font-size: .9em;
@@ -111,4 +111,18 @@ div.slider {
 	position: relative;
 	top: .5em;
 	left: 1em;
+}
+.color-swatch:hover {
+	cursor: pointer;
+}
+
+/* Font Style */
+.font-style {
+	position: relative;
+	top: .6em;
+	left: 1em;
+	margin-left: 1em;
+}
+.font-style:hover {
+	cursor: pointer;
 }
