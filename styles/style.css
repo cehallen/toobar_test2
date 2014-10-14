@@ -13,7 +13,11 @@ div.toolbar div {
 	display: inline-block;
 }
 
-/* All Tool Styles */
+/* General Styles */
+.text {
+	color: #6d6d6d;
+	font-size: .85em;
+}
 
 
 /* Font Select */
@@ -97,12 +101,13 @@ div.slider {
 
 /* Width Checkbox */
 .width-checkbox {
-	color: #6d6d6d;
+
 }
 .checkbox-text {
 	position: relative;
 	top: .1em;
-	font-size: .85em;
+/* 	color: #6d6d6d;
+font-size: .85em; */
 }
 
 
@@ -119,7 +124,7 @@ div.slider {
 /* Font Style */
 .font-style {
 	position: relative;
-	top: .65em;
+	top: .7em;
 	left: 1.2em;
 	margin-left: 1em;
 }
@@ -130,7 +135,27 @@ div.slider {
 /* Gear Icon */
 .gear-icon {
 	position: relative;
-	top: .55em;
+	top: .6em;
 	left: .5em;
 	margin-left: 1em;
+}
+
+/* Grid Icon */
+.grid-icon {
+	float: right;
+	position: relative;
+	top: -.1em;
+	margin: 1em;
+}
+.grid-icon:hover {
+	cursor: pointer;
+}
+.grid-icon img {
+	height: 1.8em;
+	width: auto;
+}
+.grid-text {
+	margin: 0 .5em;
+	position: relative;
+	top: -.55em;
 }
