@@ -101,13 +101,11 @@ div.slider {
 
 /* Width Checkbox */
 .width-checkbox {
-
+	position: relative;
+	top: .175em;
 }
 .checkbox-text {
-	position: relative;
-	top: .1em;
-/* 	color: #6d6d6d;
-font-size: .85em; */
+
 }
 
 
@@ -138,6 +136,9 @@ font-size: .85em; */
 	top: .6em;
 	left: .5em;
 	margin-left: 1em;
+}
+.gear-icon:hover {
+	cursor: pointer;
 }
 
 /* Grid Icon */
