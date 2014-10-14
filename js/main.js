@@ -12,7 +12,7 @@ $(function() {
     //Config
     range: "min",
     min: 1,
-    value: 35,
+    value: 48,
 
     start: function(event,ui) {
         tooltip.fadeIn('fast');

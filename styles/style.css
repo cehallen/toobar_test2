@@ -59,16 +59,6 @@ div.slider {
 	background: linear-gradient(top,  rgba(69,72,77,0.5) 0%,rgba(0,0,0,0.5) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8045484d', endColorstr='#80000000',GradientType=0 ); /* IE6-9 */
 }
-.volume {
-	/* content: "";
-	display: inline-block;
-	width: 25px;
-	height: 25px;
-	right: 0px;
-	background: url('../images/volume.png') no-repeat 0 -50px;
-	position: absolute;
-	margin-top: -5px; */
-}
 .ui-slider-handle {
 	position: absolute;
 	z-index: 2;
@@ -81,4 +71,17 @@ div.slider {
 	outline: none;
 	top: -9px;
 	margin-left: -12px;
+}
+.font-size {
+	color: #5a5a5a;
+}
+.font-size.small {
+	font-size: .75em;
+	position: relative;
+	top: -3px;
+}
+.font-size.large {
+	font-size: 1.25em;
+	position: relative;
+	top: -1px;
 }
