@@ -3,7 +3,7 @@ body {
 }
 div.toolbar {
 	background-color: #fbfbfb;
-  height: 3em;
+  height: 3.5em;
   font-family: verdana, calibri, arial;
   border: 1px #e6e6e6 solid;
   font-size: .9em;
@@ -17,6 +17,8 @@ div.toolbar div {
 /* Select01 */
 div.select01 {
 	margin: 1em;
+	position: relative;
+	top: -4px;
 }
 
 
@@ -31,17 +33,18 @@ div.slider {
 	border-radius: 2px;
 	width: 150px;
 	position: relative;
-	top: 4px;
+	top: 8px;
 	height: 7px;
 	background-color: #cccccc;
 }
 .tooltip {
-	position: relative;
+	position: absolute;
 	display: block;
-	top: 0px;
+	top: -22px;
 	width: 35px;
 	height: 20px;
-	color: #bababa;
+	color: #fbffff;
+	background-color: #1b9bfc;
 	text-align: center;
 	font: 10pt verdana, Tahoma, Arial, sans-serif ;
 	border-radius: 3px;
@@ -64,10 +67,10 @@ div.slider {
 .font-size.small {
 	font-size: .75em;
 	position: relative;
-	top: -3px;
+	top: 2px;
 }
 .font-size.large {
 	font-size: 1.25em;
 	position: relative;
-	top: -1px;
+	top: 3px;
 }

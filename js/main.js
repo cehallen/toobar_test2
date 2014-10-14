@@ -1,6 +1,6 @@
 $(function() {
   // *********** Select01 ********* //
-  $('#basic').selectric();
+  $("#font-select").selectBoxIt();
 
   // *********** End **********//
 
