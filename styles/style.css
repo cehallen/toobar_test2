@@ -100,4 +100,5 @@ div.slider {
 .checkbox-text {
 	position: relative;
 	top: .1em;
+	font-size: .85em;
 }
