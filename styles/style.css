@@ -1,7 +1,7 @@
 body {
 
 }
-div.toolbar {
+div#toolbar {
 	background-color: #fbfbfb;
   height: 3.6em;
   border: 1px #e6e6e6 solid;
@@ -9,7 +9,7 @@ div.toolbar {
 	letter-spacing: .065em;
 	font-size: .9em;
 }
-div.toolbar div {
+div#toolbar div {
 	display: inline-block;
 }
 
@@ -204,39 +204,59 @@ div.slider {
 /* Media Queries for Desktop */
 
 @media screen and (max-width: 1190px) {
-  div.toolbar {
+  div#toolbar {
   	height: 7.6em;
 		width: 641px;
 		margin: 0 auto;
   }
 }
-@media screen and (max-width: 639px) {
-	div.toolbar {
+@media screen and (max-width: 660px) {
+	div#toolbar {
+		width: 660px;
+	}
+	/* .up-arrow-text, .samples-text, .grid-text {
 		display: none;
 	}
+	.up-arrow, .samples-icon, .grid-icon {
+		float: none;
+		margin-left: 1em;
+	} */
+}
+
+@media screen and (max-width: 660px) {
+	div#toolbar {
+		display: none;
+	}
+
 }
 
 
 /* Media Queries and Style for Mobile */
-@media screen and (min-width: 640px) {
-	.pull-row {
+@media screen and (min-width: 661px) {
+	#pull-row {
 		display: none;
 	}
 }
-.pull-row {
-	background-color: #fbfbfb;
+#pull-row {
+	background-color: #f2f2f2;
 	border: 1px #e6e6e6 solid;
 	font-family: verdana, calibri, arial;
 	letter-spacing: .065em;
 	font-size: .9em;
 }
-.pull-icon {
+#pull-icon {
 	font-size: 2.5em;
 	color: #999999;
 	margin-left: .2em;
 	position: relative;
 	top: -.05em;
 }
-.pull-icon:hover {
+#pull-row:hover {
 	cursor: pointer;
 }
+/* #pull-row .pull-text {
+	float: right;
+	margin: 1.2em .5em;
+	color: #6d6d6d;
+	font-size: .85em;
+} */

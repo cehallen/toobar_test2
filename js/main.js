@@ -38,4 +38,17 @@ $(function() {
   });
   // ************ End ********** //
 
+  // *********** Nav Bar Pull Icon *********** //
+  $("#pull-row").click(function() {
+    var toolbar = $("#toolbar");
+    toolbar.slideToggle();
+  });
+
+  // $(window).resize(function(){
+  //   var w = $(window).width();
+  //   if(w > 640 && menu.is(':hidden')) {
+  //       menu.removeAttr('style');
+  //   }
+  // });
+  // ***************** End ********** //
 });
