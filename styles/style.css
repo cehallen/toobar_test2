@@ -212,29 +212,32 @@ div.slider {
 }
 @media screen and (max-width: 660px) {
 	div#toolbar {
-		width: 660px;
+		display: none;
 	}
-	/* .up-arrow-text, .samples-text, .grid-text {
+
+}
+
+
+/*
+Media Queries and Style for Mobile
+(down to viewport 600px)
+ */
+@media screen and (min-width: 661px) {
+	#pull-row {
+		display: none;
+	}
+}
+@media screen and (max-width: 660px) {
+	div#toolbar {
+		width: auto;
+		height: 8em;
+		text-align: center;
+	}
+	.up-arrow-text, .samples-text, .grid-text {
 		display: none;
 	}
 	.up-arrow, .samples-icon, .grid-icon {
 		float: none;
-		margin-left: 1em;
-	} */
-}
-
-@media screen and (max-width: 660px) {
-	div#toolbar {
-		display: none;
-	}
-
-}
-
-
-/* Media Queries and Style for Mobile */
-@media screen and (min-width: 661px) {
-	#pull-row {
-		display: none;
 	}
 }
 #pull-row {
