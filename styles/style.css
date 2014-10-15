@@ -168,6 +168,9 @@ div.slider {
 	position: relative;
 	top: -.1em;
 }
+.samples-icon:hover {
+	cursor: pointer;
+}
 .samples-icon img {
 	height: 1.8em;
 	width: auto;
