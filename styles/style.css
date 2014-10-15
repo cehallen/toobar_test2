@@ -199,3 +199,12 @@ div.slider {
 	position: relative;
 	top: -.6em;
 }
+
+
+/* Media Queries */
+
+@media screen and (max-width: 1190px) { 
+  div.toolbar {
+  	height: 7.6em;
+  }
+}
