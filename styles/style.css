@@ -206,6 +206,8 @@ div.slider {
 @media screen and (max-width: 1190px) {
   div.toolbar {
   	height: 7.6em;
+		width: 641px;
+		margin: 0 auto;
   }
 }
 @media screen and (max-width: 639px) {
