@@ -4,10 +4,10 @@ body {
 div.toolbar {
 	background-color: #fbfbfb;
   height: 3.6em;
-  font-family: verdana, calibri, arial;
   border: 1px #e6e6e6 solid;
-  font-size: .9em;
-  letter-spacing: .065em;
+  font-family: verdana, calibri, arial;
+	letter-spacing: .065em;
+	font-size: .9em;
 }
 div.toolbar div {
 	display: inline-block;
@@ -201,10 +201,40 @@ div.slider {
 }
 
 
-/* Media Queries */
+/* Media Queries for Desktop */
 
-@media screen and (max-width: 1190px) { 
+@media screen and (max-width: 1190px) {
   div.toolbar {
   	height: 7.6em;
   }
+}
+@media screen and (max-width: 639px) {
+	div.toolbar {
+		display: none;
+	}
+}
+
+
+/* Media Queries and Style for Mobile */
+@media screen and (min-width: 640px) {
+	.pull-row {
+		display: none;
+	}
+}
+.pull-row {
+	background-color: #fbfbfb;
+	border: 1px #e6e6e6 solid;
+	font-family: verdana, calibri, arial;
+	letter-spacing: .065em;
+	font-size: .9em;
+}
+.pull-icon {
+	font-size: 2.5em;
+	color: #999999;
+	margin-left: .2em;
+	position: relative;
+	top: -.05em;
+}
+.pull-icon:hover {
+	cursor: pointer;
 }
