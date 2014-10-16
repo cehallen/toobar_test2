@@ -220,7 +220,7 @@ div.slider {
 
 /*
 Media Queries and Style for Mobile
-(down to viewport 600px)
+(down to viewport 505px)
  */
 @media screen and (min-width: 661px) {
 	#pull-row {
