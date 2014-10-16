@@ -174,9 +174,7 @@ div.slider {
   color: #fff;
 }
 .selected-select {
-	background-color: #1acefc;
-	border-left:  2px #1acefc solid;
-	border-right:  2px #1acefc solid;
+	border-left:  3px #1acefc solid;
 
 }
 .selected-select:hover {
