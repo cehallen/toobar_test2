@@ -47,9 +47,19 @@ $(function() {
 
   $(window).resize(function(){
     var w = $(window).width();
-    if(w > 660 && toolbar.is(':hidden')) {
+    if (w > 660 && toolbar.is(':hidden')) {
       toolbar.removeAttr('style');
     }
   });
   // ***************** End ********** //
+
+  // ************ Gear Select *********** //
+  var li = $(".select-hover");
+  li.click(function() {
+    $(this).toggleClass("selected-select");
+  });
+  $("#clear-select").click(function() {
+    li.removeClass("selected-select");
+  });
+  // ********** End ************ //
 });

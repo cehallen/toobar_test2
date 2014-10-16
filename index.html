@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<div id="toolbar">
-			<div class="select01 tool">
+			<div class="select01">
 				<form action="?">
 					<select name="font-select" id="font-select">
 						<option>Font Names</option>
@@ -21,49 +21,58 @@
 				</form>
 			</div>
 
-			<div class="font-input tool">
+			<div class="font-input">
 				<form action="?">
 					<input type="text" placeholder="Enter your own text...">
 				</form>
 			</div>
 
 			<div class="font-size small">A</div>
-			<div class="slider tool">
+			<div class="slider ">
 				<span class="tooltip"></span>
 				<div id="slider"></div>
 			</div>
 			<div class="font-size large">A</div>
 
-			<div class="width-checkbox tool">
+			<div class="width-checkbox">
 				<form action="?">
 					<label><input type="checkbox" name="checkbox"><span class="text checkbox-text">&nbsp;fit to width</span></label>
 				</form>
 			</div>
 
-			<div class="color-swatch tool">
+			<div class="color-swatch">
 				<img src="images/color-swatch.png" alt="color swatch">
+
 			</div>
 
-			<div class="font-style tool">
+			<div class="font-style">
 				<img src="images/font-style.png" alt="font styles">
 			</div>
 
-			<div class="gear-icon tool">
+			<div class="gear-icon hover-select">
 				<img src="images/gear-icon.png" alt="gear selector">
+				<ul>
+					<li class="select-hover">Some options here...</li>
+					<li class="select-hover">...</li>
+					<li class="select-hover">...</li>
+					<li class="select-hover">...</li>
+					<li class="select-hover">...</li>
+					<li id="clear-select">Clear</li>
+				</ul>
 			</div>
 
 
-				<div class="grid-icon tool">
+				<div class="grid-icon">
 					<span class="text grid-text">Grid</span>
 					<img src="images/grid-icon.png" alt="grid icon">
 				</div>
 
-				<div class="samples-icon tool">
+				<div class="samples-icon ">
 					<span class="text samples-text">Samples</span>
 					<img src="images/samples-icon.png" alt="samples icon">
 				</div>
 
-				<div class="up-arrow tool">
+				<div class="up-arrow ">
 					<a href="#">
 						<span class="text up-arrow-text">Back to top</span>
 						<img src="images/up-arrow.png" alt="back to top">
