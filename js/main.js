@@ -47,19 +47,23 @@ $(function() {
 
   $(window).resize(function(){
     var w = $(window).width();
-    if (w > 660 && toolbar.is(':hidden')) {
-      toolbar.removeAttr('style');
+    if (w > 660 && toolbar.is(":hidden")) {
+      toolbar.removeAttr("style");
     }
   });
   // ***************** End ********** //
 
-  // ************ Gear Select *********** //
+  // ************ Gear Select, Font Style Select*********** //
   var li = $(".select-hover");
   li.click(function() {
     $(this).toggleClass("selected-select");
   });
-  $("#clear-select").click(function() {
-    li.removeClass("selected-select");
+  $(".clear-select").click(function() {
+    // li.removeClass("selected-select");
+    // $(".gear-icon li").removeClass("selected-select");
+    $(this).siblings().removeClass("selected-select");
+
   });
   // ********** End ************ //
+
 });
