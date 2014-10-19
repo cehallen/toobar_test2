@@ -25,7 +25,9 @@ div#toolbar div {
 
 
 
-/* Font Select */
+/*
+Font Select
+*/
 div.select01 {
 	margin: 1em .6em 1em 1em;
 	position: relative;
@@ -136,17 +138,20 @@ div.slider {
 	cursor: pointer;
 }
 
-/* Gear Icon */
+/*
+Gear Icon
+Font Style Clickable List
+*/
 .gear-icon {
 	position: relative;
 	top: .6em;
 	left: .5em;
 	margin-left: 1em;
 }
-.gear-icon:hover {
+.select:hover {
 	cursor: pointer;
 }
-.gear-icon ul {
+.select ul {
 	display: none;
   visibility: hidden;
   position: absolute;
@@ -160,16 +165,16 @@ div.slider {
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	border-radius: 2px;
 }
-.gear-icon ul li {
+.select ul li {
 	position: relative;
   font-size: .7em;
   padding: .3em 1em;
 }
-.gear-icon:hover ul {
+.select:hover ul {
 	display: block;
   visibility: visible;
 }
-.gear-icon ul li:hover {
+.select ul li:hover {
 	background-color: #1b9bfc;
   color: #fff;
 }
